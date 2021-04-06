@@ -1,0 +1,69 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background: #4e4e4e;
+}
+.box
+{
+  width: 30%;
+  height: auto;
+  border: 1px solid #dadada;
+  /*padding: 20px 0;*/
+  margin: 40px auto;
+  display: flex;
+  /*justify-content: center; center | flex-end | flex-start | space-between
+  align-items: center;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 5px 2px #1B1A1A;
+}
+.box1
+{
+	flex-basis: 35%;
+	/*margin: 20px;*/
+  background: lightgrey;
+}
+.box1 img
+{
+	width: 100%;
+}
+.box1 p
+{
+	text-align: justify;
+  padding: 15px;
+  color: rgba(0,0,0,0.5)
+}
+.box1 h1
+{
+  padding: 15px;
+  color: black;
+}
+.box2
+{
+  height: 2%
+  width: auto;
+  /*margin: 0 20px;*/
+  background: grey;
+}
+.box2 p
+{
+  text-align: justify;
+  padding: 10px;
+  color: rgba(0,0,0,0.5)
+}
+.fa-gratipay
+{
+  color: blue;
+  margin-left: 300px;
+}
+.fa-arrow-circle-o-right
+{
+  color: color: black;
+  margin-left: 320px;
+}
